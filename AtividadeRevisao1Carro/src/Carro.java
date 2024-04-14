@@ -1,13 +1,11 @@
 
 public class Carro {
 
-    // Atributos privados para armazenar as informações do carro
     private String marca;
     private String modelo;
     private int ano;
     private String cor;
 
-    // Construtor para inicializar os atributos do carro
     public Carro(String marca, String modelo, int ano, String cor) {
         this.marca = marca;
         this.modelo = modelo;
